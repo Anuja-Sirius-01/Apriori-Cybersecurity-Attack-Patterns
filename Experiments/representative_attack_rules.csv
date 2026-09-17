@@ -1,0 +1,9 @@
+attack,pattern,training_support,training_confidence,training_lift,test_support,test_confidence,confidence_change
+DoS,Protocol=unas,0.0253,0.3376,7.0772,0.015,0.3317,-0.0059
+Exploits,Service=pop3 + State=FIN,0.0064,0.9427,5.5809,0.0051,0.9381,-0.0046
+Exploits,Service=smtp,0.0193,0.6154,3.643,0.0135,0.5667,-0.0487
+Exploits,Protocol=ospf + State=INT,0.0054,0.496,2.9366,0.0028,0.4122,-0.0838
+Fuzzers,Protocol=udp + Service=- + State=INT,0.0279,0.3748,3.4583,0.0137,0.1677,-0.2071
+Generic,Service=dns + State=INT,0.2421,0.992,4.0226,0.2331,0.9944,0.0024
+Generic,Protocol=udp + Service=dns,0.2421,0.8278,3.3568,0.2331,0.8506,0.0227
+Generic,Protocol=udp + State=INT,0.2427,0.7617,3.0887,0.2346,0.7421,-0.0196

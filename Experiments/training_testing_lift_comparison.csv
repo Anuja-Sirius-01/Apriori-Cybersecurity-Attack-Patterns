@@ -1,0 +1,41 @@
+attack,pattern,training_confidence,test_confidence,training_lift,test_attack_support,test_lift,lift_change
+DoS,Protocol=unas + Service=- + State=INT,0.3376,0.3317,7.0772,0.0346,9.5969,2.5197
+DoS,Protocol=unas + Service=-,0.3376,0.3317,7.0772,0.0346,9.5969,2.5197
+DoS,Protocol=unas,0.3376,0.3317,7.0772,0.0346,9.5969,2.5197
+DoS,Protocol=unas + State=INT,0.3376,0.3317,7.0772,0.0346,9.5969,2.5197
+Exploits,Protocol=tcp + Service=pop3 + State=FIN,0.9427,0.9381,5.5809,0.1238,7.5754,1.9945
+Exploits,Service=pop3 + State=FIN,0.9427,0.9381,5.5809,0.1238,7.5754,1.9945
+Exploits,Service=pop3,0.9403,0.9362,5.5664,0.1238,7.5598,1.9935
+Exploits,Protocol=tcp + Service=pop3,0.9403,0.9362,5.5664,0.1238,7.5598,1.9935
+Exploits,Service=smtp,0.6154,0.5667,3.643,0.1238,4.5764,0.9334
+Exploits,Protocol=tcp + Service=smtp,0.6154,0.5667,3.643,0.1238,4.5764,0.9334
+Exploits,Service=smtp + State=FIN,0.6128,0.5664,3.6279,0.1238,4.5742,0.9464
+Exploits,Protocol=tcp + Service=smtp + State=FIN,0.6128,0.5664,3.6279,0.1238,4.5742,0.9464
+Generic,Service=dns + State=INT,0.992,0.9944,4.0226,0.2417,4.1147,0.0921
+Generic,Protocol=udp + Service=dns + State=INT,0.992,0.9944,4.0226,0.2417,4.1147,0.0921
+Generic,Protocol=udp + Service=dns,0.8278,0.8506,3.3568,0.2417,3.5194,0.1626
+Generic,Service=dns,0.8271,0.85,3.3537,0.2417,3.5171,0.1634
+Exploits,Protocol=ospf + State=INT,0.496,0.4122,2.9366,0.1238,3.3287,0.3922
+Exploits,Protocol=ospf + Service=- + State=INT,0.496,0.4122,2.9366,0.1238,3.3287,0.3922
+Exploits,Protocol=ospf,0.4771,0.3935,2.8242,0.1238,3.1775,0.3533
+Exploits,Protocol=ospf + Service=-,0.4771,0.3935,2.8242,0.1238,3.1775,0.3533
+Generic,Protocol=udp + State=INT,0.7617,0.7421,3.0887,0.2417,3.0708,-0.018
+Exploits,Protocol=unas + State=INT,0.4369,0.3562,2.5867,0.1238,2.8763,0.2896
+Exploits,Protocol=unas,0.4369,0.3562,2.5867,0.1238,2.8763,0.2896
+Exploits,Protocol=unas + Service=-,0.4369,0.3562,2.5867,0.1238,2.8763,0.2896
+Exploits,Protocol=unas + Service=- + State=INT,0.4369,0.3562,2.5867,0.1238,2.8763,0.2896
+Exploits,Protocol=tcp + Service=http + State=FIN,0.4635,0.3389,2.7441,0.1238,2.737,-0.0071
+Exploits,Service=http + State=FIN,0.4635,0.3389,2.7441,0.1238,2.737,-0.0071
+Exploits,Service=http,0.4634,0.3384,2.7435,0.1238,2.7324,-0.0112
+Exploits,Protocol=tcp + Service=http,0.4634,0.3384,2.7435,0.1238,2.7324,-0.0112
+Exploits,Service=ftp,0.4711,0.3222,2.789,0.1238,2.6016,-0.1874
+Exploits,Protocol=tcp + Service=ftp,0.4711,0.3222,2.789,0.1238,2.6016,-0.1874
+Exploits,Protocol=tcp + Service=ftp + State=FIN,0.47,0.3219,2.7825,0.1238,2.5992,-0.1833
+Exploits,Service=ftp + State=FIN,0.47,0.3219,2.7825,0.1238,2.5992,-0.1833
+Generic,Protocol=udp,0.6215,0.6232,2.5202,0.2417,2.5785,0.0583
+Exploits,Protocol=tcp + Service=ftp-data + State=FIN,0.3589,0.3173,2.1245,0.1238,2.562,0.4375
+Exploits,Service=ftp-data + State=FIN,0.3589,0.3173,2.1245,0.1238,2.562,0.4375
+Exploits,Service=ftp-data,0.3592,0.3161,2.1264,0.1238,2.5528,0.4264
+Exploits,Protocol=tcp + Service=ftp-data,0.3592,0.3161,2.1264,0.1238,2.5528,0.4264
+Generic,State=INT,0.5726,0.6141,2.3217,0.2417,2.5411,0.2194
+Fuzzers,Protocol=udp + Service=- + State=INT,0.3748,0.1677,3.4583,0.0696,2.4095,-1.0489
